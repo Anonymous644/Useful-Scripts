@@ -1,0 +1,8 @@
+# Ignore local configuration files with sensitive credentials
+config.cmd
+.env
+
+# Ignore local backup data if the script is run directly inside the repo folder
+/backup_*/
+*.gz
+*.bson
